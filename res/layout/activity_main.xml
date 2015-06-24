@@ -6,36 +6,71 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="150dp"
-        android:background="#33CC00" >
-        
-          <LinearLayout
-	        android:layout_width="match_parent"
-	        android:layout_height="48dp"
-	        android:layout_marginLeft="10dp"
-	        android:layout_marginRight="10dp"
-	        android:layout_marginTop="10dp"
-	        android:background="#eeeeee"
-	        android:padding="8dp" >
+        android:layout_height="110dp"
+        android:background="#33CC00"
+        android:orientation="vertical" >
 
-	        <EditText
-	            android:id="@+id/editTextSearch"
-	            style="@style/etStyleWhite"
-	            android:layout_width="match_parent"
-	            android:layout_height="match_parent"
-	            android:drawableLeft="@drawable/ic_action_search"
-	            android:drawablePadding="8dp"
-	            android:ems="10"
-	            android:hint="Search"
-	            android:padding="8dp"
-	            android:paddingRight="8dp"
-	            android:singleLine="true" >
-	
-	            <requestFocus />
-	        </EditText>
-	    </LinearLayout>
-        
-        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:gravity="center"
+            android:layout_weight="3"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2" >
+
+                <TextView
+                    android:id="@+id/txt1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Jobs"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@android:color/white"
+                    android:textSize="18dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:id="@+id/txt2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Jobs"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@android:color/white"
+                    android:textSize="18dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#eeeeee"
+            android:padding="8dp" >
+
+            <EditText
+                android:id="@+id/editTextSearch"
+                style="@style/etStyleWhite"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:drawableLeft="@drawable/ic_action_search"
+                android:drawablePadding="8dp"
+                android:ems="10"
+                android:hint="Search"
+                android:padding="8dp"
+                android:paddingRight="8dp"
+                android:singleLine="true" >
+
+                <requestFocus />
+            </EditText>
+        </LinearLayout>
     </LinearLayout>
 
 </LinearLayout>
