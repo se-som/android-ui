@@ -336,6 +336,7 @@ int drawable abc_textfield_search_material 0x7f020032
 int drawable editext_bacground_white 0x7f020033
 int drawable ic_action_search 0x7f020034
 int drawable ic_launcher 0x7f020035
+int drawable ic_plus_icon_01 0x7f020036
 int id action_bar_activity_content 0x7f050018
 int id action_bar_root 0x7f05002c
 int id action_bar_spinner 0x7f050017

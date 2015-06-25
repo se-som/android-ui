@@ -12,15 +12,15 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="48dp"
-            android:gravity="center"
-            android:layout_weight="3"
-            android:orientation="horizontal" >
+            android:layout_height="53dp"
+            android:paddingTop="9dp"
+            android:gravity="center" >
 
             <LinearLayout
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="2" >
+                android:layout_gravity="center"
+                android:layout_weight="7" >
 
                 <TextView
                     android:id="@+id/txt1"
@@ -34,16 +34,14 @@
             <LinearLayout
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="1" >
+                android:layout_weight="1">
 
-                <TextView
+                <ImageView
                     android:id="@+id/txt2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Jobs"
-                    android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:textColor="@android:color/white"
-                    android:textSize="18dp" />
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:layout_marginRight="15dp"
+                    android:src="@drawable/ic_plus_icon_01" />
             </LinearLayout>
         </LinearLayout>
 
